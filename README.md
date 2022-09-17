@@ -1,5 +1,8 @@
-# DL_CRASH_COURSE
+# DL\_CRASH\_COURSE
+Disclaimer: None of the course material are mine. These materials were found after exhaustively searching the internet and what seemed to be free and relevant to the work we do.
 ## Week 1:
+
+### Tutorials:
 - https://jovian.ai/learn/deep-learning-with-pytorch-zero-to-gans/lesson/lesson-1-pytorch-basics-and-linear-regression (This covers the basics of pytorch, can be skimmed through super fast.)
 - https://jovian.ai/learn/deep-learning-with-pytorch-zero-to-gans/lesson/lesson-2-working-with-images-and-logistic-regression
 - - This tutorial is more fun and covers the following:
@@ -11,3 +14,8 @@
 - - - Setting up a training loop that also evaluates the model using the validation set
 - - - Testing the model manually on randomly picked examples
 - - - Saving and loading model checkpoints to avoid retraining from scratch
+
+### Lectures:
+- For lecture and reading material, please go through this:
+- - https://www.youtube.com/watch?v=QyFrYUCXbgI (lecture)
+- - https://www.deeplearningbook.org/contents/mlp.html (this is the related chapter for the lecture)
