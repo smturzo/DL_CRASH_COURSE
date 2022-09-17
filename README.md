@@ -1,5 +1,6 @@
 # DL\_CRASH\_COURSE
 Disclaimer: None of the course material are mine. These materials were found after exhaustively searching the internet and what seemed to be free and relevant to the work we do.
+Note: The directories of the individuals are people from the Lindert Lab who showed interest in working through this crash course with me. For the interested individuals I created a directory (per person with their first name). The created directories for the respective individuals to upload their tutorials, examples, notes, assignments, papers and/or problems they want to talk about.
 ## Week 1:
 
 ### Tutorials:
