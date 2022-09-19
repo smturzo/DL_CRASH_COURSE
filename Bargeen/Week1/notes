@@ -1,0 +1,7 @@
+# Modules loaded
+Currently Loaded Modules:
+  1) xalt/latest   2) gcc-compatibility/8.4.0   3) intel/19.0.5   4) mvapich2/2.3.3   5) modules/sp2020   6) cuda/10.2.89
+# Pytorch conda install
+conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
+# Pytorch conda env
+conda activate py_torch
