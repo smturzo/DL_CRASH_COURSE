@@ -27,3 +27,16 @@ train_loader = DataLoader(train_ds, batch_size, shuffle=True)
 val_loader = DataLoader(val_ds, batch_size) 
 # On the other hand, since the validation data loader is used only for evaluating the model, 
 # There is no need to shuffle the images. (Not sure I understand this explanation completely)
+
+import torch.nn as nn
+
+input_size = 28*28 # This is to flatten the 28 by 28 image into a input vector of 784 items
+num_classes = 10   # Since it has a probability for images from 0 to 9, we need 10 here. Confused about this.
+
+# Logistic regression model
+model = nn.Linear(input_size, num_classes)
+
+
+print("Total number of model weights: ",model.weight.shape)
+print("Weights of the model: ")
+print(model.weight)
