@@ -24,4 +24,6 @@ print("Size of training set: ", len(train_ds), "Size of validation set: ", len(v
 from torch.utils.data import DataLoader
 batch_size = 128 #Hyper parameter
 train_loader = DataLoader(train_ds, batch_size, shuffle=True)
-val_loader = DataLoader(val_ds, batch_size) # On the other hand, since the validation data loader is used only for evaluating the model, there is no need to shuffle the images. (Not sure I understand this explanation)
+val_loader = DataLoader(val_ds, batch_size) 
+# On the other hand, since the validation data loader is used only for evaluating the model, 
+# There is no need to shuffle the images. (Not sure I understand this explanation completely)
