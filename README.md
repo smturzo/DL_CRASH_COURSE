@@ -12,11 +12,11 @@ Note: The directories of the individuals are people from the Lindert Lab who sho
 For this focus on logistic model for classification problem with the MNIST dataset. 
 
 #### Pytorch installation guides on OSC
-1\. module load miniconda3
-2\. module load cuda/10.2.89
-3\. conda create --name pytorchenv
-4\. conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
-5\. conda activate pytorchenv
+- 1\. module load miniconda3
+- 2\. module load cuda/10.2.89
+- 3\. conda create --name pytorchenv
+- 4\. conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
+- 5\. conda activate pytorchenv
 
 Note: Alternatively you can also do this on Google Colab. However, at some point you will need to switch over to OSC when you actually use it on your own dataset at some
 point in the course.
